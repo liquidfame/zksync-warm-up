@@ -98,6 +98,15 @@ RPCS = [
     {'chain': 'ZKSYNC', 'chain_id': 324, 'rpc': 'https://zksync2-mainnet.zksync.io', 'scan': 'https://explorer.zksync.io/', 'token': 'ETH'},
 ]
 
+text1 = '''liquidfame'''
+
+text2 = '''liquidfame'''
+
+texts = [text1, text2]
+colors = ['cyan', 'magenta', 'blue']
+
+RUN_TEXT = random.choice(texts)
+RUN_COLOR = random.choice(colors)
 
 def intToDecimal(qty, decimal):
     return int(qty * int("".join(["1"] + ["0"]*decimal)))
