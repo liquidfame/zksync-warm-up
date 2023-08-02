@@ -4,6 +4,9 @@ from main import *
 
 if __name__ == "__main__":
 
+    cprint(RUN_TEXT, RUN_COLOR)
+    cprint(f'\nsubscribe to us : https://t.me/liqfame', RUN_COLOR)
+
 
     if RM_WALLETS == True:
         random.shuffle(KEYS_LIST)
@@ -13,5 +16,3 @@ if __name__ == "__main__":
         cprint(f'\n=============== start : {privatekey} ===============', 'white')
 
         swaps(privatekey, CHAIN)
-
-
