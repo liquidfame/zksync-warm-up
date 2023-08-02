@@ -30,15 +30,6 @@ COINS       = {
         {'address': '0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55',
         'symbol': 'DPX'},
 
-        {'address': '0x1622bF67e6e5747b81866fE0b85178a93C7F86e3',
-        'symbol': 'UMAMI'},
-
-        {'address': '0x10393c20975cF177a3513071bC110f7962CD67da',
-        'symbol': 'JONES'},
-
-        {'address': '0x5575552988A3A80504bBaeB1311674fCFd40aD4B',
-        'symbol': 'SPA'},
-
         {'address': '0x51318B7D00db7ACc4026C88c3952B66278B6A67F',
         'symbol': 'PLS' },
 
@@ -47,9 +38,7 @@ COINS       = {
 
         {'address': '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
         'symbol': 'USDC'},
-
-        {'address': '0xB5de3f06aF62D8428a8BF7b4400Ea42aD2E0bc53',
-        'symbol': 'BRC'},
+        
     ],
     
     'OPTIMISM' : [
@@ -81,11 +70,6 @@ COINS       = {
         {'address': '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
         'symbol': 'DAI'},
 
-        {'address': '0x6DcB98f460457fe4952e12779Ba852F82eCC62C1',
-        'symbol': 'BRICK'},
-
-        {'address': '0xfe60A48a0bCf4636aFEcC9642a145D2F241A7011',
-        'symbol': 'SUSHI'},
     ],
 }
 
